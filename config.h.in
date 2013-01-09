@@ -1,0 +1,5 @@
+
+#define MAJOR_VERSION @c_bstree_VERSION_MAJOR@
+#define MINOR_VERSION @c_bstree_VERSION_MINOR@
+#define PATCH_VERSION @c_bstree_VERSION_PATCH@
+
