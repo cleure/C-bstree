@@ -10,7 +10,7 @@
     #include "debug.h"
 #endif
 
-extern void rbtree_remove_cleanup(struct bstree *tree, struct bstree_node *cur);
+extern void rbtree_remove_cleanup(struct bstree *tree, struct bstree_node **cur);
 
 /* Case 1: No Children */
 static void remove_case1(struct bstree *tree, struct bstree_node **node)

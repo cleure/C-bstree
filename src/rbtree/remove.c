@@ -11,7 +11,7 @@
     #include "debug.h"
 #endif
 
-void rbtree_remove_cleanup(struct bstree *tree, struct bstree_node *cur)
+void rbtree_remove_cleanup(struct bstree *tree, struct bstree_node **cur)
 {
     /* FIXME */
 }
