@@ -1,0 +1,85 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		60965BF8164304D2001D6F81 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; name = include; path = ../../include; sourceTree = "<group>"; };
+		60965BF9164304D2001D6F81 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../src; sourceTree = "<group>"; };
+		60965BFA164304D2001D6F81 /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tests; path = ../../tests; sourceTree = "<group>"; };
+		60965BFB164304D2001D6F81 /* tools */ = {isa = PBXFileReference; lastKnownFileType = folder; name = tools; path = ../../tools; sourceTree = "<group>"; };
+		60965BFC1643055C001D6F81 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = CMakeLists.txt; path = ../../CMakeLists.txt; sourceTree = "<group>"; };
+		60965BFE16430853001D6F81 /* config.h.in */ = {isa = PBXFileReference; lastKnownFileType = text; name = config.h.in; path = ../../config.h.in; sourceTree = "<group>"; };
+		60D5D6A71648542100DD305F /* testing-framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "testing-framework.h"; path = "../../testing-framework.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		60965BEF164304BA001D6F81 = {
+			isa = PBXGroup;
+			children = (
+				60965BFC1643055C001D6F81 /* CMakeLists.txt */,
+				60965BFE16430853001D6F81 /* config.h.in */,
+				60D5D6A71648542100DD305F /* testing-framework.h */,
+				60965BF8164304D2001D6F81 /* include */,
+				60965BF9164304D2001D6F81 /* src */,
+				60965BFA164304D2001D6F81 /* tests */,
+				60965BFB164304D2001D6F81 /* tools */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		60965BF1164304BA001D6F81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Sumner High/WebSprockets";
+			};
+			buildConfigurationList = 60965BF4164304BA001D6F81 /* Build configuration list for PBXProject "C-bstree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60965BEF164304BA001D6F81;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		60965BF6164304BA001D6F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		60965BF7164304BA001D6F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60965BF4164304BA001D6F81 /* Build configuration list for PBXProject "C-bstree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60965BF6164304BA001D6F81 /* Debug */,
+				60965BF7164304BA001D6F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60965BF1164304BA001D6F81 /* Project object */;
+}
